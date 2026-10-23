@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How JayEA Calendar accesses, uses, stores and shares calendar information.">
+  <title>Privacy policy — JayEA Calendar</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><nav class="wrap" aria-label="Main navigation">
+    <a class="brand" href="../"><span class="mark" aria-hidden="true">EA</span>JayEA Calendar</a>
+    <div class="nav-links"><a href="./" aria-current="page">Privacy</a><a href="../terms/">Terms of use</a></div>
+  </nav></header>
+  <main id="main" class="wrap document">
+    <p class="eyebrow">App information</p>
+    <h1>Privacy policy</h1>
+    <p class="date">Prepared October 23, 2026 · Personal-use integration</p>
+    <p>JayEA Calendar is a personal-use integration operated by its account owner. It connects the owner’s private executive assistant to their personal Google Calendar. It is not offered as a public service.</p>
+    <h2>What the integration accesses</h2>
+    <p>With the owner’s Google authorization, the integration reads events from the authorized account’s primary calendar. This can include titles, dates and times, locations, notes, event identifiers, links, availability, and ownership or attendee metadata needed to check conflicts and editing eligibility. Titles, times, locations, status and event links may be returned to the assistant; the calendar tool does not return event descriptions.</p>
+    <p>The Google permission covers events on calendars the account owns and includes reading, creating, changing and deleting events at the authorization level. The integration restricts its API requests to the primary calendar and does not expose a delete operation.</p>
+    <h2>How the information is used</h2>
+    <p>Calendar information is used to answer the owner’s calendar questions, check conflicts, identify the requested event, create or edit a specifically requested event, and verify the saved result. A creation or edit can include the title, timing, location and notes the owner supplies or approves.</p>
+    <p>This integration does not sell calendar data or use it for advertising. Calendar data is provided to the assistant’s AI service to fulfill the owner’s requests; third-party processing is described below.</p>
+    <h2>Where data is processed and shared</h2>
+    <ul>
+      <li><strong>Google:</strong> maintains the calendar and handles sign-in, permission grants and event requests.</li>
+      <li><strong>The owner’s private assistant server:</strong> runs the integration, checks conflicts and stores the authorization needed to connect to Google.</li>
+      <li><strong>OpenAI:</strong> processes relevant calendar information and user requests through the assistant’s configured ChatGPT connection to produce responses and requested actions.</li>
+      <li><strong>Discord:</strong> carries the owner’s private requests and the assistant’s replies, which can include event titles, times, locations and links.</li>
+    </ul>
+    <p>Relevant information may remain in private assistant conversation history and be available to other agents or administrators the owner has authorized within that private assistant setup. The service providers’ own policies and the owner’s account settings also apply. This notice does not promise that third-party services retain no data or have identical data-use settings.</p>
+    <h2>Credentials and storage</h2>
+    <p>Google authorization credentials are stored in protected private server files so the integration can reconnect without requesting a password. Credentials are not intentionally included in assistant messages, calendar events, this website or its public source files. Calendar events remain in Google Calendar; relevant requests and results may be retained in assistant or Discord history and existing private backups.</p>
+    <p>The integration does not set an automatic deletion period for saved calendar events or assistant conversations. Their retention is controlled by the account owner, the assistant setup and the relevant service providers. Do not put passwords, patient information or other sensitive details into calendar requests.</p>
+    <h2>Disconnecting and deleting information</h2>
+    <p>The owner can revoke JayEA Calendar’s Google access in their <a href="https://myaccount.google.com/connections">Google Account third-party connections</a>. Revocation stops future authorized calendar requests; it does not automatically delete existing calendar events, assistant history, Discord messages or backups. Those copies must be managed separately in the services or private setup where they are stored.</p>
+    <p>Requests to remove private server authorization or retained assistant data are handled by the account owner through the existing private assistant support channel. Do not send credentials or authorization codes in a support message.</p>
+    <h2>This information website</h2>
+    <p>This is a static information site. It has no calendar connection, account form, advertising, analytics scripts or tracking scripts. When hosted on GitHub Pages, GitHub may log visitors’ IP addresses for security, as described in the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. No calendar data is published on the website.</p>
+    <h2>Questions and changes</h2>
+    <p>For questions, use the existing private conversation with JayEA or contact the account owner through that private setup. There is no public customer-support or signup service. This page should be updated if the integration’s access or data practices change.</p>
+  </main>
+  <footer><div class="wrap footer-row"><span>JayEA Calendar · Personal-use integration</span><div><a href="../">App information</a><a href="../terms/">Terms of use</a></div></div></footer>
+</body>
+</html>
